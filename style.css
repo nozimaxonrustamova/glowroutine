@@ -448,6 +448,34 @@ section { padding: 100px 80px; }
 
 .buy-now-btn:hover { background: var(--pink-deep); transform: translateY(-2px); }
 
+/* CATEGORY PAGES */
+.category-hero {
+  text-align: center; padding: 120px 80px 60px;
+  background: var(--cream);
+}
+
+.category-hero .section-title { margin-bottom: 16px; }
+
+.category-products {
+  padding: 60px 80px 80px;
+  background: var(--bg);
+}
+
+.category-products .products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.back-btn {
+  display: inline-block; margin-top: 50px;
+  font-family: 'Jost', sans-serif; font-size: 14px;
+  color: var(--text); text-decoration: none;
+  letter-spacing: 0.5px; transition: all var(--transition);
+}
+
+.back-btn:hover { color: var(--pink); }
+
 /* FOOTER */
 footer {
   background: var(--cream); padding: 80px 80px 40px;
