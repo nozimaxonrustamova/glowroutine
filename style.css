@@ -439,9 +439,10 @@ section { padding: 100px 80px; }
 .newsletter-btn:hover { background: var(--pink-deep); transform: translateY(-2px); }
 
 .buy-now-btn {
-  margin-top: 20px; padding: 16px 40px; background: var(--pink); color: var(--text);
+  display: block; margin: 40px auto 0; padding: 20px 60px;
+  background: var(--pink); color: var(--text);
   border: none; border-radius: 60px; font-family: 'Jost', sans-serif;
-  font-size: 13px; font-weight: 400; letter-spacing: 1.5px;
+  font-size: 14px; font-weight: 500; letter-spacing: 1.5px;
   text-transform: uppercase; cursor: pointer; transition: all var(--transition);
 }
 
